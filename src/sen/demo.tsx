@@ -8,7 +8,7 @@ const store = [
   {
     name: "image3",
     color: "white",
-    position: [10, 0, 15],
+    position: [18, 0, 10],
     url: "/image3.jpg",
     link: 1,
   },
@@ -61,7 +61,7 @@ export default function App() {
         enablePan={false}
         enableDamping
         dampingFactor={0.2}
-        autoRotate={false}
+        autoRotate={true}
         rotateSpeed={-0.5}
       />
       <Suspense fallback={null}>
